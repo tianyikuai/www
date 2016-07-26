@@ -49,19 +49,72 @@ body {
   margin: 30px 0;
 }
 
+a {
+  color: #009688;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #009688;
+}
+
 /* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
+.container {
+  .jumbotron {
+    text-align: center;
+    background-color: #009688;
+    border-radius: 0px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #eee;
+
+    .btn {
+      padding: 10px 30px;
+      font-size: 24px;
+      border-radius: 10px;
+    }
+  }
+
+  .row {
+    h4 {
+      background-color: #009688;
+      color: #fff;
+      padding: 8px 20px;
+      margin: 10px 0;
+    }
+
+    ul {
+      li {
+        font-size: 18px;
+      }
+    }
+
+    table {
+      ul {
+        padding: 0;
+      }
+    }
+
+    p,
+    table,
+    li {
+      font-size: 18px;
+    }
+
+    p {
+      color: #ccc;
+    }
+
+    th {
+      color: #2196f3;
+    }
   }
 }
 
+
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+  // margin: 40px 0;
   p + h4 {
     margin-top: 28px;
   }
@@ -72,7 +125,7 @@ body {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -84,6 +137,9 @@ body {
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
+    .text-muted {
+      font-size: 0;
+    }
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
