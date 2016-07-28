@@ -64,6 +64,9 @@ a {
   .jumbotron {
     text-align: center;
     background-color: #009688;
+    background: linear-gradient(141deg, #42bbb0 0%, #43a4af 51%, #2aa59a 75%);
+    background: linear-gradient(141deg, #42bbb0 0%, #1c656d 51%, #2aa59a 75%);
+
     border-radius: 0px;
     border-bottom: 1px solid #e5e5e5;
     color: #eee;
@@ -108,6 +111,12 @@ a {
     th {
       color: #2196f3;
     }
+  }
+}
+
+.row.marketing {
+  h4 {
+    background-color: #80729a;
   }
 }
 
