@@ -24,7 +24,12 @@ $icon-font-path: '../fonts/';
   padding-right: 15px;
 }
 
-
+.queries {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+}
 
 /* Custom page header */
 .header {
