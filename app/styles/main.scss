@@ -148,12 +148,11 @@ footer {
 .container.backimage {
   width: auto;
   background: url('../images/bg.jpg') no-repeat;
-  background-size: 100%;
-  height: 672px;
   color: #fff;
 
   .desc {
     margin-top: 200px;
+    margin-bottom: 207px;
 
     h1 {
       font-size: 70px;
@@ -175,7 +174,7 @@ footer {
   color: #888;
 
   h1.logo {
-    margin-top: 80px;
+    margin-top: 50px;
     height: 80px;
 
     img {
@@ -240,7 +239,8 @@ footer {
   background-color: #fff;
   color: #888;
 
-  h1, h4 {
+  h1,
+  h4 {
     color: #888;
   }
 }
@@ -376,6 +376,27 @@ footer {
   .footer {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .container.main h1.logo {
+    margin-top: 20px;
+  }
+
+  .container.backimage .desc {
+    margin-top: 40px;
+    margin-bottom: 41px;
+
+    h1 {
+      font-size: 35px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
   }
 
   /* Space out the masthead */
