@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>田一块讲堂</title>
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
   <!-- Place favicon.ico in the root directory -->
 
   <!-- build:css styles/vendor.css -->
@@ -30,14 +30,15 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title hidden-xs">手机扫一扫查看课程并报名</h4>
-        <h4 class="modal-title hidden-sm hidden-md hidden-lg visible-xs-block">长按二维码打开课程并报名</h4>
+        <h4 class="modal-title text-center hidden-xs">微信扫一扫报名</h4>
+        <h4 class="modal-title text-center hidden-sm hidden-md hidden-lg visible-xs-block">长按二维码报名</h4>
       </div>
       <div class="modal-body">
+
         <p class="text-center pay"><img src="/images/qrcode.png" /></p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">确定</button>
       </div>
     </div>
   </div>
@@ -50,287 +51,373 @@
 
   <div class="queries hidden-xs">
     <div>
-      <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2191038613&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2191038613:53" alt="欢迎咨询田一块讲堂课程服务" title="欢迎咨询田一块讲堂课程服务" /></a>
+      <!--<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2191038613&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2191038613:53" alt="欢迎咨询田一块讲堂课程服务" title="欢迎咨询田一块讲堂课程服务" /></a>-->
     </div>
   </div>
-  <div class="container">
+  <div class="container backimage">
     <div class="header">
       <ul class="nav nav-pills pull-right">
         <li class="active"><a href="#">首页</a></li>
-        <li><a href="#">关于</a></li>
-        <li><a href="#">联系</a></li>
+        <li><a href="#about">关于</a></li>
+        <li><a href="#contact">联系</a></li>
       </ul>
       <h3 class="text-muted"><img class="logo" src="images/logo.png" /> 田一块讲堂</h3>
     </div>
-
-    <div class="jumbotron">
-      <h1>Nodejs微信开发培训</h1>
-      <p class="lead">加快你的微信开发速度</p>
-      <p class="lead">国内最全面的微信开发课程等你来学</p>
-      <p><a class="btn btn-xs btn-danger" data-toggle="modal" data-target="#weixinpay">马上报名</a></p>
-
-    </div>
-    <div class="row intro">
-      <div class="col-md-6 col-xs-12">
-        <h4>讲堂及讲师</h4>
-        <ul>
-          <li>田一块讲堂
-            <ul>
-              <li>一个基于开源技术的讲堂</li>
-              <li>一个关注微信技术的讲堂</li>
-              <li>一个旨在通过开发，学习，讲解开源技术，促进开源技术的传播的讲堂</li>
-            </ul>
-          </li>
-          <li>田一块讲师
-            <ul>
-              <li>是一名全栈开发工程师</li>
-              <li>是一名GNUer，开源爱好者</li>
-              <li>目前维护有多个开源nodejs/js的库</li>
-              <li>有多年的企业内训，讲师等从业经验</li>
-              <li>曾经就职于多家知名互联网公司</li>
-              <li>有多年的架构经验，曾任高级工程师，架构师/技术总监等职</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <h4>联系我们</h4>
-        <div class="row">
-          <div class="col-md-6 col-xs-12">
-            <p>关注公共账号</p>
-            <p class="text-center"><img src="images/qrcode.jpg" alt="" /></p>
-          </div>
-          <div class="col-md-6 col-xs-12">
-            <p>QQ群交流</p>
-            <p class="qq-group">
-              <ul>
-                <li>Nodejs培训咨询群：579500717
-                  <br/>
-                  <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=bec127989fc140c528c8c7e07650a1aed125ab74c76d63ce038001f5a3ce56f8"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="田一块小卖部项目交流" title="田一块小卖部项目交流"></a>
-                </li>
-                <li>Nodejs微信开发群：39287176
-                  <br/>
-                  <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=b82ac8f81483d7d0dab3334c8b056b14e281fe9739467cdc78a94273bf80d63d"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="nodejs微信开发群" title="nodejs微信开发群"></a>
-                </li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row marketing">
-      <div class="col-md-6 col-xs-12">
-        <h4>课程目标</h4>
-        <ul>
-          <li>学习微信开发的基本原理</li>
-          <li>掌握一个或者多个微信开发的知识点</li>
-          <li>通过实战理解node-weixin的使用方式</li>
-          <li>可以通node-weixin快速的搭建自己的微信服务</li>
-        </ul>
-
-        <h4>适合人群</h4>
-        <ul>
-          <li>需要接入微信功能的企业开发者</li>
-          <li>想开发微信应用的个人开发者</li>
-          <li>对微信开发感兴趣的求职者</li>
-        </ul>
-
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <h4>招生对象</h4>
-        <ul>
-          <li>具备一定的网站开发基础知识</li>
-          <li>熟悉HTML+CSS</li>
-          <li>熟悉javascript语言</li>
-          <li>熟悉nodejs的使用</li>
-        </ul>
-        <h4>课程特色</h4>
-        <ul>
-          <li>分模块学习</li>
-          <li>即学习原理，也学习实战</li>
-          <li>最全面的node微信开发教程</li>
-          <li>实战性质的培训</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row course">
-      <div class="col-md-6 col-xs-12">
-        <h4>node-weixin介绍</h4>
-        <p class="intro">主要介绍node-weixin的架构与模块，以及简单的使用</p>
-        <table class="table">
-          <tr>
-            <th>课程名称</th>
-            <th>课程内容</th>
-            <th>课时</th>
-          </tr>
-          <tr>
-            <td>node-weixin介绍</td>
-            <td>
-              <ul>
-                <li>node-weixin的架构介绍</li>
-                <li>node-weixin的模块介绍</li>
-              </ul>
-            </td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>node-weixin-express使用</td>
-            <td>
-              <ul>
-                <li>了解node-weixin-express的使用</li>
-                <li>了解express下如何实现Auth</li>
-                <li>了解express下如何实现JSSDK</li>
-                <li>了解express下如何实现消息互动</li>
-              </ul>
-            </td>
-            <td>2</td>
-          </tr>
-
-        </table>
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <h4>微信前端</h4>
-        <p class="intro">介绍微信的前端开发，即对JSSDK的调用。以及如何处理与后端的配置的调用问题</p>
-        <table class="table">
-          <tr>
-            <th>课程名称</th>
-            <th>课程内容</th>
-            <th>课时</th>
-          </tr>
-          <tr>
-            <td>微信服务器对接（Auth）</td>
-            <td>
-              <ul>
-                <li>对接的原理</li>
-                <li>使用node-weixin-auth对接</li>
-              </ul>
-            </td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>微信JSSDK的开发（JSSDK）</td>
-            <td>
-              <ul>
-                <li>理解JSSDK的流程</li>
-                <li>使用node-weixin-jssdk对接</li>
-              </ul>
-            </td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>微信项目实战</td>
-            <td>
-              <ul>
-                <li>自己开发一个微信响应服务器</li>
-                <li>实现一个基于微信JSSDK的开源应用</li>
-              </ul>
-            </td>
-            <td>2</td>
-          </tr>
-        </table>
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <h4>微信公共号</h4>
-        <p class="intro">介绍公共帐号里如何更新菜单，多媒体，回复消息，接收消息，客服回复等</p>
-        <table class="table">
-          <tr>
-            <th>课程名称</th>
-            <th>课程内容</th>
-            <th>课时</th>
-          </tr>
-          <tr>
-            <td>微信菜单等资源的开发</td>
-            <td>
-              <ul>
-                <li>对接的原理</li>
-                <li>使用node-weixin进行修改对接</li>
-              </ul>
-            </td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>消息处理</td>
-            <td>
-              <ul>
-                <li>微信消息分类</li>
-                <li>node-weixin-message的使用</li>
-              </ul>
-            </td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>微信项目实战</td>
-            <td>
-              <ul>
-                <li>开发聊天机器人</li>
-                <li>消息通知器</li>
-              </ul>
-            </td>
-            <td>2</td>
-          </tr>
-        </table>
-      </div>
-      <div class="col-md-6 col-xs-12 coming">
-        <h4>微信接入与支付</h4>
-        <p class="intro">介绍OAuth的接入与支付的实现过程</p>
-        <table class="table">
-          <tr>
-            <th>课程名称</th>
-            <th>课程内容</th>
-            <th>课时</th>
-          </tr>
-          <tr>
-            <td>微信用户接入（OAuth）</td>
-            <td>
-              <ul>
-                <li>OAuth接入的原理</li>
-                <li>使用node-weixin-oauth对接</li>
-              </ul>
-            </td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>微信支付（Pay）</td>
-            <td>
-              <ul>
-                <li>微信支付需要的准备工作</li>
-                <li>微信支付的基础知识</li>
-                <li>使用node-weixin-pay开发微信支持</li>
-              </ul>
-            </td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>微信基础技术的总结</td>
-            <td>
-              <ul>
-                <li>加解密技术，安全传输技术</li>
-                <li>HTTP/HTTPS</li>
-                <li>OAuth技术</li>
-              </ul>
-            </td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>微信项目实战</td>
-            <td>
-              <ul>
-                <li>通过OAuth登录微信用户</li>
-                <li>应用微信支持到商城</li>
-              </ul>
-            </td>
-            <td>4</td>
-          </tr>
-        </table>
-        <div class="mask">
-          <p>企业开发!<br/>联系QQ群</p>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <p>田一块讲堂</p>
+    <div class="desc">
+      <h2 class="text-center">学习 发现 合作 创新</h2>
+      <h3 class="text-center">为梦想而努力</h3>
+      <h1 class="text-center">微信开发 未来无限</h1>
     </div>
   </div>
+  <div class="container main">
+    <a name="about"></a>
+    <h1 class="logo text-center"><img src="images/logo.png" /></h1>
+    <h2 class="text-center">Nodejs微信开发培训</h2>
+    <h2 class="text-center">加快你的微信开发速度, 最全面的微信开发课程等你来学</h2>
+    <div class="row">
+      <div class="container intro">
+        <h3>田一块讲堂</h3>
+        <p>基于开源技术，推动微信开发，传播开源理念的讲堂</p>
+        <h3>田一块讲师</h3>
+        <p>是全栈开发工程师、GNUer、开源爱好者；维护有多个开源nodejs/js的库；有多年的企业内训、讲师等从业经验；曾经就职于多家知名互联网公司；有多年的架构经验，曾任高级工程师，架构师/技术总监等职</p>
+        <h3>课程目标</h3>
+        <p>学习微信开发的基本原理；掌握一个或者多个微信开发的知识点；通过实战理解node-weixin的使用方式；weixin快速的搭建自己的微信服务</p>
+        <h3>适合人群</h3>
+        <p>需要接入微信功能的企业开发者；想开发微信应用的个人开发者；对微信开发感兴趣的求职者</p>
+        <h3>招生对象</h3>
+        <p>具备一定的网站开发基础知识；熟悉HTML+CSS+JS；熟悉nodejs的使用</p>
+        <div class="row list">
+          <div class="col-md-3 text-center">
+            <img src="images/list/1.png" />
+            <p>模板化学习</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="images/list/2.png" />
+            <br/>
+            <p>实战练习</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="images/list/3.png" />
+            <p>全面的微信技能</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <img src="images/list/4.png" />
+            <p>快速的提升</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="big text-center">不只是学习，也是一次旅程</h1>
+  </div>
+
+  <div class="container color">
+    <div class="row">
+      <div class="container">
+        <div class="row course">
+          <div class="col-md-12 col-xs-12">
+            <h4>node-weixin介绍</h4>
+            <!--<p class="intro">主要介绍node-weixin的架构与模块，以及简单的使用</p>-->
+            <table class="table">
+              <tr>
+                <th>课程名称</th>
+                <th>课程内容</th>
+                <th>课时</th>
+              </tr>
+              <tr>
+                <td>node-weixin介绍</td>
+                <td>
+                  <ul>
+                    <li>node-weixin的架构介绍</li>
+                    <li>node-weixin的模块介绍</li>
+                  </ul>
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>node-weixin-express使用</td>
+                <td>
+                  <ul>
+                    <li>了解node-weixin-express的使用</li>
+                    <li>了解express下如何实现Auth</li>
+                    <li>了解express下如何实现JSSDK</li>
+                    <li>了解express下如何实现消息互动</li>
+                  </ul>
+                </td>
+                <td>2</td>
+              </tr>
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container color one">
+    <div class="row">
+      <div class="container">
+        <div class="row course">
+          <div class="col-md-12 col-xs-12">
+            <h4>微信个人订阅号开发</h4>
+            <table class="table">
+              <tr>
+                <th>课程名称</th>
+                <th>课程内容</th>
+                <th>课时</th>
+              </tr>
+              <tr>
+                <td>微信服务器对接（Auth）</td>
+                <td>
+                  <ul>
+                    <li>对接的原理，基本API状态</li>
+                    <li>使用node-weixin-auth对接</li>
+                  </ul>
+                </td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>消息处理(message)</td>
+                <td>
+                  <ul>
+                    <li>微信消息接收与自动回复分类</li>
+                    <li>node-weixin-message的使用</li>
+                  </ul>
+                </td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>基本的微信JSSDK的开发（JSSDK）</td>
+                <td>
+                  <ul>
+                    <li>理解JSSDK的流程</li>
+                    <li>使用node-weixin-jssdk对接</li>
+                  </ul>
+                </td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>微信项目实战</td>
+                <td>
+                  <ul>
+                    <li>自己开发一个微信响应服务器</li>
+                    <li>自己开发一个微信消息服务器，添加机器人功能</li>
+                    <li>实现一个基于微信JSSDK的开源应用</li>
+                  </ul>
+                </td>
+                <td>2</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container color two">
+    <div class="row">
+      <div class="container">
+        <div class="row course">
+          <div class="col-md-12 col-xs-12">
+            <h4>微信认证订阅号开发</h4>
+            <!--<p class="intro">介绍公共帐号里如何更新菜单，多媒体，回复消息，客服回复等</p>-->
+            <table class="table">
+              <tr>
+                <th>课程名称</th>
+                <th>课程内容</th>
+                <th>课时</th>
+              </tr>
+              <tr>
+                <td>微信菜单开发</td>
+                <td>
+                  <ul>
+                    <li>菜单的对接原理、参数的说明</li>
+                    <li>使用node-weixin-menu修改菜单</li>
+                  </ul>
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>微信用户管理</td>
+                <td>
+                  <ul>
+                    <li>微信用户分组、列表等</li>
+                    <li>使用node-weixin-user进行管理用户</li>
+                  </ul>
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>微信消息发送</td>
+                <td>
+                  <ul>
+                    <li>微信客户、多客户、群发等</li>
+                    <li>使用node-weixin-message进行开发</li>
+                  </ul>
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>微信素材开发</td>
+                <td>
+                  <ul>
+                    <li>微信永久素材、临时素材等</li>
+                    <li>使用node-weixin-media进行开发</li>
+                  </ul>
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>微信卡券开发</td>
+                <td>
+                  <ul>
+                    <li>微信永久素材、临时素材等</li>
+                    <li>使用node-weixin-media进行开发</li>
+                  </ul>
+                </td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>微信项目实战</td>
+                <td>
+                  <ul>
+                    <li>开发聊天机器人</li>
+                    <li>消息通知器</li>
+                  </ul>
+                </td>
+                <td>2</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container color three">
+    <div class="row">
+      <div class="container">
+        <div class="row course">
+          <div class="col-md-12 col-xs-12 coming">
+            <h4>微信服务号开发</h4>
+            <!--<p class="intro">介绍OAuth的接入与支付的实现过程</p>-->
+            <table class="table">
+              <tr>
+                <th>课程名称</th>
+                <th>课程内容</th>
+                <th>课时</th>
+              </tr>
+              <tr>
+                <td>微信推广支持</td>
+                <td>
+                  <ul>
+                    <li>二维码生成，短链接</li>
+                    <li>使用node-weixin-link对接</li>
+                  </ul>
+                </td>
+                <td>0.5</td>
+              </tr>
+              <tr>
+                <td>微信用户接入（OAuth）</td>
+                <td>
+                  <ul>
+                    <li>OAuth接入的原理</li>
+                    <li>使用node-weixin-oauth对接</li>
+                  </ul>
+                </td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>微信支付（Pay）</td>
+                <td>
+                  <ul>
+                    <li>微信支付需要的准备工作,加解密技术，安全传输技术</li>
+                    <li>微信支付的基础知识</li>
+                    <li>使用node-weixin-pay开发微信支持</li>
+                  </ul>
+                </td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>微信项目实战</td>
+                <td>
+                  <ul>
+                    <li>通过OAuth登录微信用户</li>
+                    <li>应用微信支持到商城</li>
+                  </ul>
+                </td>
+                <td>4</td>
+              </tr>
+            </table>
+            <div class="mask">
+              <p>服务号开发，敬请期待!<br/>或者联系QQ群</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container color contact">
+    <div class="row">
+      <div class="container">
+        <div class="row contact">
+          <a name="contact"></a>
+          <h4>第一期 微信订阅号开发培训</h4>
+
+          <div class="col-md-12 col-xs-12 text-center">
+            <ul>
+              <li>包含以上所有已经开放的课程</li>
+              <li>开课时间： 2016年8月27-2016年8月28日，共二天</li>
+              <li>招生人数：20人左右</li>
+              <li>价格： 899/人（在校学生可凭学生证优惠100元）</li>
+            </ul>
+            <h1><a class="register" data-toggle="modal" data-target="#weixinpay">点击报名</a></h1>
+          </div>
+          <h4>联系QQ群</h4>
+
+          <div class="col-md-6 col-xs-12 text-center">
+            <p>Nodejs培训咨询群：579500717</p>
+            <p>
+              <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=bec127989fc140c528c8c7e07650a1aed125ab74c76d63ce038001f5a3ce56f8"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="田一块小卖部项目交流" title="田一块小卖部项目交流"></a>
+            </p>
+
+          </div>
+          <div class="col-md-6 col-xs-12 text-center">
+
+            <p>Nodejs微信开发群：39287176</p>
+            <p>
+              <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=b82ac8f81483d7d0dab3334c8b056b14e281fe9739467cdc78a94273bf80d63d"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="nodejs微信开发群" title="nodejs微信开发群"></a>
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container color footer">
+    <div class="row">
+      <div class="container">
+        <div class="row">
+          <h4 class="text-center" style="padding: 20px;">田一块讲堂 + Web全栈公共号</h4>
+
+          <div class="col-md-6 col-xs-12 text-center">
+            <p><img style="width: 258px; height:258px" src="images/logo.png" /></p>
+            <h3>加快您的微信开发</h3>
+          </div>
+          <div class="col-md-6 col-xs-12 text-center">
+            <p><img src="images/qrcode.jpg" /></p>
+            <h3>扫描二维码关注</h3>
+          </div>
+          <div class="col-md-12 col-xs-12 text-center">
+            <footer>&copy; 2016 tianyikuai.com</footer>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
@@ -374,6 +461,9 @@
     ga('create', 'UA-80984087-1');
     ga('send', 'pageview');
   </script>
+  <div class="hidden">
+    <script src="https://s4.cnzz.com/z_stat.php?id=1260089594&web_id=1260089594" language="JavaScript"></script>
+  </div>
 </body>
 
 </html>
