@@ -149,6 +149,8 @@ footer {
 .container.backimage {
   width: auto;
   background: url('../images/bg.jpg') no-repeat;
+  background-position: 50% 50%;  /* Sets reference point to scale from */
+  background-size: cover;        /* Sets background image to cover entire element */
   color: #fff;
 
   .desc {
